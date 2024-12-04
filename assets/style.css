@@ -187,6 +187,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10000;
 }
 
 /* ------------------- sign up ------------------- */
@@ -1535,7 +1536,7 @@ footer {
   .navlist {
     position: fixed;
     width: 100%;
-    inset: 10% -100% 0 auto;
+    inset: 9% -100% 0 auto;
     flex-direction: column;
     height: auto;
     transition: 0.5s;
@@ -1545,7 +1546,7 @@ footer {
   }
 
   .navlist.active {
-    inset: 10% 0 0 auto;
+    inset: 9% 0 0 auto;
   }
 
   /* singup */
@@ -1686,6 +1687,10 @@ footer {
 
   .hero_card > h1 {
     padding-bottom: 2rem;
+  }
+
+  .card_produc_img {
+    height: 250px;
   }
 
   .warpper_footer_card {
