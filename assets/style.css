@@ -1536,7 +1536,7 @@ footer {
   .navlist {
     position: fixed;
     width: 100%;
-    inset: 9% -100% 0 auto;
+    inset: 10% -100% 0 auto;
     flex-direction: column;
     height: auto;
     transition: 0.5s;
@@ -1546,7 +1546,7 @@ footer {
   }
 
   .navlist.active {
-    inset: 9% 0 0 auto;
+    inset: 10% 0 0 auto;
   }
 
   /* singup */
@@ -1683,6 +1683,14 @@ footer {
 
   .grid_1x4 {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .navlist {
+    inset: 8% -100% 0 auto;
+  }
+
+  .navlist.active {
+    inset: 8% 0 0 auto;
   }
 
   .hero_card > h1 {
